@@ -1,13 +1,14 @@
 .sign-part{
     border: 1px solid gray;
     margin: 5% auto;
-    width:450px;
-    height: 340px;
+    width:440px;
+    height: 350px;
     border-radius: 5px;
+    box-shadow: 2px 3px 5px gray;
 }
 .sign-part h2{
     margin-top: 30%;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .inside{
     margin: 0 auto;
@@ -18,11 +19,14 @@
     border-radius: 20px;
     padding:1px 10px;
     cursor: pointer;
-    line-height:22px;
+    line-height:18px;
 }
 .inside img{
     height: 30px;
-    margin-top: 2px;
+    margin-top: 4px;
+}
+.inside p{
+    padding-top: 4px;
 }
 .logo{
     height: 70px;

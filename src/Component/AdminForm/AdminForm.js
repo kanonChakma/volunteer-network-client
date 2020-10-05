@@ -18,7 +18,7 @@ const AdminForm = () => {
         setData(info);
        }
   const handleForm=()=>{
-      fetch('http://localhost:5000/adminInsert',{
+      fetch('https://protected-hamlet-68740.herokuapp.com/adminInsert',{
           method:'POST',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify(data),

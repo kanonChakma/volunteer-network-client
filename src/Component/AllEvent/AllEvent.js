@@ -8,13 +8,13 @@ const AllEvent = () => {
     const[signInUser,setSignInUser]=useContext(userContext)
     
     useEffect(()=>{
-      fetch('http://localhost:5000/getEvent?email='+signInUser.email)
+      fetch('https://protected-hamlet-68740.herokuapp.com/getEvent?email='+signInUser.email)
      .then(res=>res.json())
      .then(data=>setEvent(data))
     },[event])
 
   const deleteEvent =(id)=>{
-     fetch(`http://localhost:5000/deleteEvent/${id}`,{
+     fetch(`https://protected-hamlet-68740.herokuapp.com/deleteEvent/${id}`,{
        method: 'DELETE',
      })
     }

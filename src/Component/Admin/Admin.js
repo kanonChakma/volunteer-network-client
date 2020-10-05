@@ -9,14 +9,14 @@ import './Admin.css'
 const Admin = () => {
     const[data,setData]=useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/getAllEvent')
+        fetch('https://protected-hamlet-68740.herokuapp.com/getAllEvent')
         .then(res=>res.json())
         .then(result=>{
             setData(result)
         })
     },[data])
     const handleIcon=(id)=>{
-        fetch(`http://localhost:5000/deleteEvent/${id}`,{
+        fetch(`https://protected-hamlet-68740.herokuapp.com/deleteEvent/${id}`,{
             method: 'DELETE',
           })
     }

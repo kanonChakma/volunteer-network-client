@@ -10,17 +10,18 @@
    display:flex;
    flex-wrap: wrap; 
 }
+.event-info h5,p{margin-top:20px;}
 .all-event img{
-    height: 300px;
+    height: 260px;
     width:270px;
     margin-right: 10px;
 }
 .event-btn{
     background-color:orange;
     border: none;
-    padding: 5px 12px;
+    padding: 6px 18px;
     border-radius: 3px;
-    margin: 40px 0px 0px 10px;
+    margin: 120px 0px 0px 10px;
 }
 .event-info{
 }

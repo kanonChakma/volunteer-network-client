@@ -17,7 +17,7 @@ const Registration = () =>{
         organization:title,
        })
     useEffect(()=>{
-        fetch('http://localhost:5000/addImage?title='+title)
+        fetch('https://protected-hamlet-68740.herokuapp.com/addImage?title='+title)
         .then(res=> res.json())
         .then(result=>{
             signInUser.img=result.img;
@@ -31,7 +31,7 @@ const Registration = () =>{
         }
     const handleSubmit=() =>{
         const allinfo={...data,...signInUser}
-        fetch('http://localhost:5000/addData',{
+        fetch('https://protected-hamlet-68740.herokuapp.com/addData',{
             method:'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(allinfo),

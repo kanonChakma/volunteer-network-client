@@ -3,19 +3,20 @@ import Container from 'react-bootstrap/Container'
 import Card from 'react-bootstrap/Card'
 import './Home.css'
 import { Link } from 'react-router-dom';
+import img from '../../images/clc-small-talk-group.jpg'
 import Header from '../Header/Header';
 const Home = () => {
     const[event,setEvent]=useState([])
     
     useEffect(()=>{
-    fetch('http://localhost:5000/getData')
+    fetch('https://protected-hamlet-68740.herokuapp.com/getData')
      .then(res=> res.json())
      .then(data=>{
          setEvent(data)
      })
     },[])
     return (
-    <Container fluid="xl">
+    <Container fluid="xl" style={{backgroundImage: `linear-gradient( rgba(250, 255, 245, 1), rgba(250, 255, 245, 0.77) ), url(${img})`}} className="home-header">
          <Header></Header> 
          <div className="home-search">
              <h3>I GROW BY HELPING PEOPLE IN NEED</h3>
