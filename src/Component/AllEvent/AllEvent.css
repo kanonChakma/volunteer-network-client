@@ -1,0 +1,26 @@
+.all-event{
+    border: 1px solid gray;
+    margin-top: 15px;
+    width: 530px;
+    display:flex;
+    margin-right: 25px;
+    border-radius: 5px;
+}
+.event-main{
+   display:flex;
+   flex-wrap: wrap; 
+}
+.all-event img{
+    height: 300px;
+    width:270px;
+    margin-right: 10px;
+}
+.event-btn{
+    background-color:orange;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 3px;
+    margin: 40px 0px 0px 10px;
+}
+.event-info{
+}

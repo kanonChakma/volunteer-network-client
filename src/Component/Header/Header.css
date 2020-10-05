@@ -1,0 +1,25 @@
+.navbar-nav{
+color: gray;
+font-size: 20px;
+text-decoration: none;
+}
+.navbar-nav img{
+    height: 70px;
+}
+#nav-register,#nav-admin,#nav-link{
+    text-decoration: none;
+}
+#nav-register,#nav-admin{
+    border: 1px solid gray;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#nav-register{
+    background-color:#34495e;
+    color:white;
+}
+#nav-admin{
+    background-color: #4b4b4b;
+    color:white;
+}

@@ -1,0 +1,28 @@
+.register{
+    border:1px solid gray;
+    margin: 0 auto;
+    width:500px;
+    margin-top: 5%;
+    height:420px;
+
+}
+.register h4{
+  margin-top:20px;
+  }
+.register input{
+  width:400px;
+  margin-top: 10px;
+  border: none;
+  border-bottom: 1px solid gray;
+  padding:10px 5px;
+}
+.register input:focus{
+    outline: none;
+}
+.register input[type="button"]
+{
+  margin-bottom:20px;
+  background-color:#34495e;
+  color: white;
+  
+}

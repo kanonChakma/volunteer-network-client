@@ -1,0 +1,27 @@
+.admin-form input{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.admin-form{
+   box-shadow: 2px 1px 5px gray;
+   height: 500px;
+   padding: 20px;
+}
+h5{
+    text-decoration: none; 
+}
+h5:hover, h5:active {
+    cursor: pointer;
+    color: rgb(105, 230, 51);
+  }
+#descrip{
+ padding: 10px
+}
+.admin-form input[type="button"]{
+    width: 150px;
+    background-color: rgb(105, 230, 51);
+    margin: 10px auto;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+}

@@ -1,0 +1,30 @@
+.sign-part{
+    border: 1px solid gray;
+    margin: 5% auto;
+    width:450px;
+    height: 340px;
+    border-radius: 5px;
+}
+.sign-part h2{
+    margin-top: 30%;
+    margin-bottom: 15px;
+}
+.inside{
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    border: 1px solid gray;
+    width:60%;
+    border-radius: 20px;
+    padding:1px 10px;
+    cursor: pointer;
+    line-height:22px;
+}
+.inside img{
+    height: 30px;
+    margin-top: 2px;
+}
+.logo{
+    height: 70px;
+    margin-top: 20px;
+}
