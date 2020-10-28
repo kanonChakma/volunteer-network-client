@@ -41,7 +41,7 @@ const Admin = () => {
                         <th>Vlunteer list</th>
                         <th>Action</th>
                     </tr>
-                    </thead>
+                    </thead> padding:10px 12px;
                 <tbody>
                     {
                     data.map(info=>
